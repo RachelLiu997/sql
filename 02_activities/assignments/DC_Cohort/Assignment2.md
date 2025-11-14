@@ -54,7 +54,8 @@ The store wants to keep customer addresses. Propose two architectures for the CU
 **HINT:** search type 1 vs type 2 slowly changing dimensions. 
 
 ```
-Your answer...
+Type 1 - overwritting addresses
+Type 2 - will retain changes in customer addresses 
 ```
 
 ***
@@ -183,5 +184,12 @@ Consider, for example, concepts of labour, bias, LLM proliferation, moderating c
 
 
 ```
-Your thoughts...
+In the article “Neural nets are just people all the way down,” Boykis argues that although machine-learning and AI systems are often presented as automated or self-sufficient technologies, they rely heavily on human labour, judgment, and interpretation at their creation. She illustrates this through the history of ImageNet, a large-scale image-recognition dataset that became foundational to computer visualization. Boykis explains that ImageNet was constructed by gathering millions of images and using thousands of unfairly compensated human annotators to manually label them. Subsequent AI models were generated based on the decisions that these works made regarding objects in each image, how they should be categorized and what they deemed as meaningful labels. 
+
+She further notes that WordNet, which is used to determine linguistic taxonomies and categories, were also rooted in human labour and human decisions. Decisions about how concepts are grouped, where boundaries lie between categories, and which distinctions matter are not necessarily objective and are influenced by cultural, linguistic and political factors.  
+
+The article highlights several ethical issues in AI modeling, including the hidden human labour required to train AI models, and the illusion of neutrality. AI-based decisions are often assumed to be unbiased, but because the data they are trained on reflects human categories and human judgments, they inherit human biases as well. This has real consequences: biased datasets can perpetuate stereotypes, misclassify certain groups, reinforce inequities, and amplify existing social and political power structures. 
+
+While AI tools are undeniably powerful and widely integrated into today’s society, Boykis reminds readers that these systems are not separate from the world that shapes them. 
+
 ```
