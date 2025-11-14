@@ -10,7 +10,7 @@ Using the following syntax you create our super cool and not at all needy manage
 
 SELECT 
 product_name || ', ' ||coalesce(product_size, '')|| ' (' || coalesce(product_qty_type, 'unit') || ')'
-FROM product
+FROM product;
 
 
 /*
@@ -184,7 +184,7 @@ customer_id,
 vendor_id, 
 product_id
 FROM customer
-CROSS JOIN temp.customer_vendors_products
+CROSS JOIN temp.customer_vendors_products;
 
 -- INSERT
 /*1.  Create a new table "product_units". 
@@ -206,7 +206,7 @@ CREATE TEMP TABLE product_units AS
 This can be any product you desire (e.g. add another record for Apple Pie). */
 
 INSERT INTO product_units
- VALUES(24, 'New apple pie','10 in', 2, 'unit', CURRENT_TIMESTAMP)
+ VALUES(24, 'New apple pie','10 in', 2, 'unit', CURRENT_TIMESTAMP);
 
 -- DELETE
 /* 1. Delete the older record for the whatever product you added. 
